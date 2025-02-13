@@ -10,6 +10,7 @@ This project demonstrates how to use **Splunk SIEM** to analyze **DHCP log files
 
 ## 📌 **Project Overview**
 The goal of this project is to:
+
 ✅ Search and extract DHCP logs from **Splunk SIEM**  
 ✅ Extract key fields such as **src_ip, dst_ip, lease renewals**  
 ✅ Detect anomalies such as **frequent lease renewals or unauthorized IP allocations**  
