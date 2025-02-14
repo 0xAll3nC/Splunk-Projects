@@ -151,6 +151,20 @@ Compare today’s logs with **previous weeks**. If DHCP activity suddenly **spik
 
 ---
 
+### **7️⃣ Dashboard for DHCP Log Analysis**  
+I created a **Splunk dashboard** to visually analyze DHCP logs using the following search query:  
+
+```spl
+index=* sourcetype=dhcplogs src_ip="192.168.202.76"
+```
+
+The dashboard helps in:  
+✅ **Monitoring DHCP activity** for a specific `src_ip`  
+✅ **Visualizing IP allocations and trends**  
+✅ **Quickly detecting anomalies and spikes in DHCP logs**  
+
+---
+
 ## 📊 **Results & Insights**
 - ✅ **Extracted src_ip and dst_ip** using Splunk's **IFX tool**.
 - ✅ Successfully identified **IP assignment trends**.
